@@ -33,5 +33,10 @@ namespace Project_18._10._2021v2.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult User()
+        {
+            return View();
+        }
     }
 }
